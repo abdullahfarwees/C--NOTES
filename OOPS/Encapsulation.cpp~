@@ -1,0 +1,31 @@
+#include<bits/stdc++.h>
+
+using namespace std;
+
+class Sample
+{
+
+private:
+
+int var;
+
+public:
+
+int addition(int a,int b)
+{
+	var = a+b;
+}
+
+void show()
+{
+	cout << var << endl;
+}
+
+
+};
+
+int main()
+{
+
+return 0;
+}
